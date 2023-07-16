@@ -56,7 +56,8 @@ a {
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: 900;
-
+  line-height: 2;
+  
 }
 
 .top-container {
@@ -139,4 +140,16 @@ p {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+@media screen and (max-width: 600px) {
+body{
+  width: 100%;
+}
+
+.projects-container{
+  flex-direction: column;
+}
+.anvbar{
+  flex-direction: column;
+}
 }
